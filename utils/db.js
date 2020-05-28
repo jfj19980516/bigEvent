@@ -1,4 +1,4 @@
-module.exports = (aql, params = null) => {
+module.exports = (sql, params = null) => {
     const mysql = require('mysql');
     const conn = mysql.createConnection({
         host: 'localhost',
